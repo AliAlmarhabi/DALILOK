@@ -83,7 +83,7 @@ public class ExpandList extends BaseExpandableListAdapter {
 			{"health","مركز البلاغات"},
 			
 			{" Banks","بنك"},
-			{"health","مركز البلاغات"},
+			{"Albilad","بنك البلاد"},// we added new bank
 			
 			/*
 			{"Ministry of Interior","  وزارة الداخلية"},
