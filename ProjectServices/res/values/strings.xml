@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProjectServices</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ServicesText">Calling Services</string>
+    <string name="title_bar">Language</string>
+    <string name="contactus">Contact US</string>
+    <string name="selectEnglish">English</string>
+    <string name="title_activity_send_email"></string>
+
+</resources>
