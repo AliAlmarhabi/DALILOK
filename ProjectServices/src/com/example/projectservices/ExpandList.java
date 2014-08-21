@@ -48,6 +48,13 @@ public class ExpandList extends BaseExpandableListAdapter {
 			{20,21,22},
 			{23,24},
 			{25,26},
+			{27,28},
+			{29,30},
+			{31,32},
+			{33,34},
+			{35,36},
+			{37,38},
+			{39,40},
 			};
 	static int language2;
 	String [][] lang={
@@ -79,12 +86,33 @@ public class ExpandList extends BaseExpandableListAdapter {
 			{"health","الادارة العامة للطواري الصحية"},
 			{"health","استشارة الصحة"},
 			
-			{" Ministry of health"," وزارة التجارة"},
+			{"Ministry of health"," وزارة التجارة"},
 			{"health","مركز البلاغات"},
 			
-			{" Banks","بنك"},
+			{"Banks","بنك"},
 			{"Albilad","بنك البلاد"},// we added new bank
 			
+			{"Banks","بنك"},
+			{"Albilad","بنك البلاد"},
+			
+			{"Banks","بنك"},
+			{"Albilad","بنك البلاد"},
+			
+			{"Banks","بنك"},
+			{"Albilad","بنك البلاد"},
+			
+			{"Banks","بنك"},
+			{"Albilad","بنك البلاد"},
+			
+			
+			{"Banks","بنك"},
+			{"Albilad","بنك البلاد"},
+			
+			{"Banks","بنك"},
+			{"Albilad","بنك البلاد"},
+			
+			{"Banks","بنك"},
+			{"Albilad","بنك البلاد"},
 			/*
 			{"Ministry of Interior","  وزارة الداخلية"},
 			{"Civil Defense","الدفاع المدني"},
@@ -232,7 +260,7 @@ public class ExpandList extends BaseExpandableListAdapter {
 	@Override
 	public int getGroupCount() {
 		// TODO Auto-generated method stub
-		return 7;//MainActivity.Parent.length;
+		return 14;//MainActivity.Parent.length;
 	}
 	@Override
 	public long getGroupId(int arg0) {
@@ -245,10 +273,10 @@ public class ExpandList extends BaseExpandableListAdapter {
 		
 		TextView parentView=new TextView(context);    
 	    parentView.setText(lang[Child[parentposition][0]][language2]);//MainActivity.Parent[parentposition]);
-		parentView.setPadding(39, 19, 0, 0);	
+		parentView.setPadding(100,22, 0, 0);	
 		parentView.setBackgroundColor(Color.parseColor("#006600"));
 		parentView.setTextColor(Color.parseColor("#ffffff"));
-		parentView.setHeight(77);
+		parentView.setHeight(140);
 		parentView.setTextSize(20);
 		return parentView;
 		

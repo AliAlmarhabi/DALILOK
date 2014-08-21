@@ -12,9 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_x="0dp"
-        android:layout_y="18dp"
+        android:layout_y="0dp"
         android:fitsSystemWindows="true"
-        android:scrollbarStyle="insideOverlay" >
+        android:scrollbarThumbVertical="@android:color/white"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarSize="2.5dp"
+        >
+        
 
     </ExpandableListView>
 
